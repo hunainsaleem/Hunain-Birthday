@@ -2,8 +2,8 @@ import React, { useEffect, useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import Confetti from "react-confetti";
 import { useNavigate } from "react-router-dom";
-import fatima from "../assets/images/fatima.jpg";
-import hunain from "../assets/images/hunain.jpg";
+import fatima from "../assets/Images/Fatima.jpg";
+import hunain from "../assets/Images/hunain.jpg";
 
 const FunnyBirthdayCloudChat = () => {
   const navigate = useNavigate();
