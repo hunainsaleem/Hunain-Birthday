@@ -1,0 +1,40 @@
+@import "tailwindcss";
+:root {
+  --primary: #000000;
+  --secondary: #1a1a1a;
+  --accent: #F9CB99;
+  --text-light: #e0e0e0;
+  --glow: #F2EDD1;
+}
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.text-accent {
+  color: var(--accent);
+}
+
+.text-light {
+  color: var(--text-light);
+}
+
+.shadow-glow {
+  text-shadow: 0 0 10px var(--glow), 0 0 20px var(--glow);
+}
+/* 🔥 Add at the bottom of your CSS file */
+
+@keyframes pulseGlow {
+  0% {
+    text-shadow: 0 0 10px var(--glow), 0 0 20px var(--glow);
+  }
+  50% {
+    text-shadow: 0 0 25px var(--glow), 0 0 50px var(--accent);
+  }
+  100% {
+    text-shadow: 0 0 10px var(--glow), 0 0 20px var(--glow);
+  }
+}
+
+.animate-glow {
+  animation: pulseGlow 1.5s infinite ease-in-out;
+}

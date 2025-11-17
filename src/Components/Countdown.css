@@ -1,0 +1,12 @@
+.countdown{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--primary);
+}
+.countdown h1{
+    color: var(--accent);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 40px;
+}
