@@ -3,7 +3,7 @@ import FunnyBirthdayChat from "./FunnyBirthdayChat";
 
 const Countdown = () => {
   const targetDate = new Date("2025-12-17T00:00:00").getTime();
-  // const targetDate = new Date("2025-11-05T17:46:00").getTime();
+  // const targetDate = new Date("2025-12-16T19:26:00").getTime();
 
 
   const [timeLeft, setTimeLeft] = useState({
